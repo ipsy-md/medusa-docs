@@ -1,0 +1,181 @@
+---
+title: "G23-R010: EEG"
+weight: 510
+---
+
+This lab is operated by the Ullsperger Lab.
+
+For questions, problems, or scheduling, contact `Christina Becker`_.
+
+.. _Christina Becker: https://lsf.ovgu.de/qislsf/rds?state=verpublish&status=init&vmfile=no&moduleCall=webInfo&publishConfFile=webInfoPerson&publishSubDir=personal&keep=y&purge=y&personal.pid=6312
+
+Overview
+********
+The lab has two soundproof cabins with Faraday cages for EEG experiments.
+Each cabin has its own KVM matrix, which allows for nearly complete flexibility
+over which computer (EEG recorder, Eye Tracker, Presentation Machine, or
+researcher supplied Laptop) displays to any screen — and routes both audio and
+USB.
+
+The KVM matrices are also interconnected, so one machine can display to both
+cabins.
+
+Cabin 1 (left)
+  EEG; speakers; eye tracking
+
+Cabin 2 (right)
+  EEG; pain stimulation; Current Designs peripherals
+
+Software
+********
+The Presentation Computers run Windows 7 and have been configured in
+compliance with Brain Products' official guidelines. These machines should
+never, under any circumstances, be connected to the network.
+
+Both machines run Matlab (2012b) and Presentation (multiple versions).
+
+EEG
+***
+Brain Products is the EEG equipment vendor used in this laboratory.
+
+Cabin 1 (left)
+  * 2x 32-channel `BrainAmp MR Plus`_
+  * 1x 16-channel `BrainAmp ExG MR`_
+
+Cabin 2 (right)
+  * 2x 32-channel `BrainAmp DC`_
+  * 1x 16-channel `BrainAmp ExG MR`_
+
+The additional Brain Products peripherals available are:
+
+* 2x `StimTrak`_
+* 2x `Photodiode`_
+* 1x `Acoustical Stimulator Adapter`_
+* 2x `GSR (Galvanic Skin Response) sensor`_
+
+.. _BrainAmp MR Plus: http://www.brainproducts.com/productdetails.php?id=6
+.. _BrainAmp DC: http://www.brainproducts.com/productdetails.php?id=2
+.. _BrainAmp ExG MR: http://www.brainproducts.com/productdetails.php?id=8
+.. _StimTrak: http://www.brainproducts.com/productdetails.php?id=57
+.. _Photodiode: http://pressrelease.brainproducts.com/photosensor/
+.. _Acoustical Stimulator Adapter: http://pressrelease.brainproducts.com/stimtrak_acoustical_stimulator/
+.. _GSR (Galvanic Skin Response) sensor: http://www.brainproducts.com/productdetails.php?id=50
+
+Eye Tracker
+***********
+SR Research EyeLink 1000
+
+.. class:: todo
+
+  **TODO:** discuss camera speed, mount, etc
+
+Current Designs
+***************
+A `Current Designs 932`_ unit is connected to the Presentation Computer of the
+right cabin. The following MR safe peripherals are available:
+
+* `Tethyx Joystick`_
+* `Bimanual Grip Force`_
+
+.. _Current Designs 932: http://www.curdes.com/mainforp/interfaces/fiu-932b.html
+.. _Tethyx Joystick: http://www.curdes.com/mainforp/interfaces/fiu-932b.html
+.. _Bimanual Grip Force: http://www.curdes.com/mainforp/responsedevices/variabledevices/hhsc-2x1-grfc.html
+
+Pain Stimulation
+****************
+Two Digitimer current stimulators are available, the `DS5`_ and `DS7A`_. In
+practice, however, only the DS7A is used, as the DS5 is unable to provide enough
+current to be aversive enough for subjects.
+
+The DS7A pulse can be triggered by software, but the intensity cannot be
+controlled by software. Thus, the initial calibration must be done manually.
+
+.. _DS5: https://digitimer.com/products/clinical-neurophysiology/peripheral-stimulators-2/ds5-isolated-bipolar-constant-current-stimulator-clinical-product/
+.. _DS7A: https://digitimer.com/products/clinical-neurophysiology/peripheral-stimulators-2/ds7a-ds7ah-hv-constant-current-stimulator-clinical-product/
+
+Speakers
+********
+`Avantone Passive MixCubes`_ were selected because they have a well understood
+sonic profile (modeled after the well known Auratones) and an overall linear
+frequency response. They are also shielded, to prevent interference.
+
+.. _Avantone Passive Mixcubes: http://www.avantonepro.com/mixcube-passive-creme-mono.php
+
+KVM Matrix
+**********
+The Gefen EXT-DVIKVM-444DL KVM Matrix (`datasheet`_; `manual`_) is the key piece
+that makes it possible to use all the computers, screens, USB peripherals, and
+audio devices — in all the needed combinations. It is also a DVI amplifier,
+enabling reliable signal for the longer cable runs into the EEG cabins.
+
+Each matrix can connect to 4 computers (1x DVI; 1x USB; 1x 3.5mm audio) and
+4 control stations (1x screen; 1x keyboard; 1x speakers/headphones).
+
+Any control station can connect to any computer — and even *multiple* control
+stations can be connected to the same computer.
+
+To demonstrate how this is useful, the following is a common experiment
+workflow:
+
+EEG Recorder is displayed inside the cabin:
+  as the technician flows the gel into the caps, they need to see which ones
+  have good contact
+Eye Tracker is displayed inside the cabin:
+  to run the calibration
+Presentation Machine (or Researcher's Laptop) is displayed inside the cabin:
+  to display the actual experiment
+
+Each control station has a Perixx keyboard (Periboard 409) that has 2 additional
+USB ports. One is used for a mouse; the other can be used by other USB response
+devices (joystick, etc). These are all routed, via the Gefen matrix, to the
+appropriate computer.
+
+.. _datasheet: http://resources.corebrands.com/products/EXT-DVIKVM-444DL/pdf_EXT-DVIKVM-444DL_Datasheet.pdf
+.. _manual: http://resources.corebrands.com/products/EXT-DVIKVM-444DL/pdf_EXT-DVIKVM-444DL_Manual.pdf
+
+Monitors
+********
+The colored dots on the monitors match the Gefen matrix remote.
+
+Recording Monitor (Green/Input #1)
+  Samsung SyncMaster SA450
+  The vertical orientation allows viewing many EEG channels simultaneously.
+
+Eye Tracking Monitor (Brown/Input #2)
+  Requires a 4:3 ratio monitor
+
+Presentation Monitor (Blue/Input #3)
+  Samsung SyncMaster 2233RZ
+
+In-Cabin Monitor (Red/Input #4)
+  Samsung SyncMaster 2233RZ
+
+The `Samsung 2233RZ`_ was specifically chosen because of a paper that measured
+its timing and found it to be favorable.
+
+.. class:: todo
+
+  **TODO:** link to 2233RZ paper
+
+  **TODO:** explain refresh rate vs resolution and matrix
+
+.. _Samsung 2233RZ: http://www.samsung.com/us/system/consumer/product/ls/22/cm/ls22cmfkfvza/2233RZ_DSHT.pdf
+
+Peripherals
+***********
+The following additional peripherals are available:
+
+* 2x USB Joysticks (1x "Flightstick Pro"; 1x "Fighterstick")
+* 2x 3-button 9-pin serial response box (custom)
+* 1x 5-button 9-pin serial response box (custom)
+* 1x 25-pin serial foot pedals (custom)
+
+.. class:: todo
+
+  **TODO:** scroll device
+
+Zebris
+******
+.. class:: todo
+
+  **TODO:** Describe and link: Zebris device
