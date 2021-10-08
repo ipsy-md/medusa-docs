@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://ipsy-md.github.io/docs/"
 title = "IPSY Docs"
 languageCode = "en-us"
 theme = "hugo-geekdoc"
