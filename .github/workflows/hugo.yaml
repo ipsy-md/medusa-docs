@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update || true
-          sudo apt --yes --no-install-recommends install hugo
+          sudo apt --yes --no-install-recommends install hugo python3-docutils
       - name: Generate docs
         run: |
           cd master
