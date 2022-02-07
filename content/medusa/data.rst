@@ -31,12 +31,21 @@ Snapshots are then transferred to a dedicated backup server located in a differe
 
 The backup retention policy is:
 
-* daily backups kept for 2 weeks
-* weekly backups kept for 6 weeks
-* monthly backups kept for 1 year
-* yearly backups kept for 2.5 years
+- daily backups
 
-  * except for ``/home/data/archive``, for which yearly backups are kept "forever"
+  * executed daily at 05:00
+  * kept for 2 weeks
+
+- weekly backups
+
+  * executed on Mondays at 05:10
+  * kept for 6 weeks
+
+- monthly backups
+
+  * executed on the 1st of every month at 05:20
+  * kept for 1 year
+
 
 If you need to have data recovered from a backup, contact the system administration to help recover your data.
 
