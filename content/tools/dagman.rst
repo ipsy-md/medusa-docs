@@ -3,13 +3,13 @@ title: DAGMan
 weight: 533
 ---
 
-DAGMan is a `HTCondor </tools/htcondor>`_ tool that allows multiple jobs to be
+DAGMan is a `HTCondor </docs/tools/htcondor>`_ tool that allows multiple jobs to be
 organized in workflows. A DAGMan workflow automatically submits jobs in a
 particular order, such that certain jobs need to complete before others start
 running.
 
 Once you are familiar with how to create, submit, and monitor
-`HTCondor jobs </tools/htcondor>`_, creating DAGMan workflows is relatively
+`HTCondor jobs </docs/tools/htcondor>`_, creating DAGMan workflows is relatively
 easy. The `official documentation`_ describes comprehensively the overall
 structure and available scripting of the dag-file.
 

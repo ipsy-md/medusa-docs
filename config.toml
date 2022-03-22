@@ -20,4 +20,5 @@ disablePathToLower = true
     endLevel = 9
 
 #[params]
-#  geekdocMenuBundle = true
+#    geekdocMenuBundle = true
+#	geekdocOverwriteHTMLBase = true

@@ -304,7 +304,7 @@ An example submit file for an interactive job is:
   it and resubmit a new interactive job later.
 
 For long-running processes (e.g. importing DICOMs using ``datalad-hirni``), you
-should start this interactive job from a `tmux session </tools/tmux>`_. That is,
+should start this interactive job from a `tmux session </docs/tools/tmux>`_. That is,
 you should log into the head node as usual, start ``tmux`` and then start the
 interactive session. This way, the interactive session will be part of your tmux
 session, which you can detach and re-attach later.

@@ -140,7 +140,7 @@ of modules that are available to ``import``.
 If you need a python module that is not yet installed and think it is of
 interest and utility to other cluster users, just ask Alex to deploy it on the
 cluster. Alternatively, you can `install it in a virtualenv
-</tools/python/#virtual-environments>`_.
+</docs/tools/python/#virtual-environments>`_.
 
 R
 **
@@ -149,4 +149,4 @@ CRAN that are available via the ``library()`` command.
 
 If you need an R package that is not yet installed (and there is a Debian
 package for it), just ask Alex to deploy it on the cluster. Alternatively, you
-can `install it from CRAN </tools/r/#cran>`_.
+can `install it from CRAN </docs/tools/r/#cran>`_.

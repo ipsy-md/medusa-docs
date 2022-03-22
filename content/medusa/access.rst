@@ -6,7 +6,7 @@ weight: 230
 Command Line
 ************
 The easiest and most reliable way of connecting to Medusa is via
-`SSH </tools/ssh/>`_.
+`SSH </docs/tools/ssh/>`_.
 
 Connecting is as simple as running the following in your terminal:
 
@@ -17,7 +17,7 @@ Connecting is as simple as running the following in your terminal:
 .. class:: note
 
   **NOTE:** Users with unstable internet connections will likely find
-  `tmux </tools/tmux/>`_ to be a helpful tool.
+  `tmux </docs/tools/tmux/>`_ to be a helpful tool.
 
 Graphical
 *********
@@ -25,7 +25,7 @@ There are multiple methods of connecting to Medusa graphically.
 
 **X Forwarding**
   Graphical programs run on the remote server can be displayed locally using
-  `SSH's X Forwarding </tools/ssh/#x%20forwarding>`_. Do note that X Forwarding
+  `SSH's X Forwarding </docs/tools/ssh/#x%20forwarding>`_. Do note that X Forwarding
   is very sensitive to latency, so it is only practical to use when on the OvGU
   campus.
 
@@ -34,7 +34,7 @@ There are multiple methods of connecting to Medusa graphically.
     ssh -X username@medusa.ovgu.de
 
 **Sixel**
-  `Sixel </tools/sixel/>`_ is mostly a toy right now. But it is quite convenient
+  `Sixel </docs/tools/sixel/>`_ is mostly a toy right now. But it is quite convenient
   in the few situations where there is support (image and NIfTI previews).
 
 **VNC**

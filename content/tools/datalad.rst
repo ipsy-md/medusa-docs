@@ -9,7 +9,7 @@ data.
 Beware that the underlying ``git annex`` calls (e.g. when calling
 ``datalad save``) can be CPU-intensive if a dataset contains many files
 (e.g. a typical fMRI dataset). Thus, it is important to work on such datasets
-via an `interactive job </medusa/htcondor#The interactive job>`_.
+via an `interactive job </docs/medusa/htcondor#The interactive job>`_.
 
 
 Resources
