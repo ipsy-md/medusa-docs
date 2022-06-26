@@ -128,8 +128,8 @@ Bei Problemen von zu vielen gestarteten vncServern:
 Sieht folgendermassen aus: 
 
 .. figure:: ./images/images_problems/problems_vncserver.png
-    :name: settings3.png
-    :alt:  settings3.png
+    :name: problems_vncserver.png
+    :alt:  problems_vncserver.png
     :align: center
     :width: 20%
 
