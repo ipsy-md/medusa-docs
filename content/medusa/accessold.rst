@@ -132,5 +132,5 @@ There are multiple methods of connecting to Medusa graphically.
   
 VPN for Windows, Linux and MacOS
 *********
-Go to the website and follow the manual: 
+Go to the website and follow the manual, beacause you need a vpn to have access to the medusa LINUX cluster. The Reason for a higher safety for every user is with a vpn connection to guarenteed a safe connection to Medusa: 
   https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
