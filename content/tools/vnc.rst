@@ -109,6 +109,13 @@ Putty on Linux
 
 Putty on MacOS
 **********
+
+Install Putty here: 
+
+https://macresearch.org/putty-for-mac/
+
+then -> configurate Putty: 
+
 PuTTY is an SSH telnet client which, with a VNC Viewer, connects to the GUI. The steps after downloading PuTTY is as follows:
 
       1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
