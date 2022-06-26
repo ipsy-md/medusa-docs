@@ -90,8 +90,12 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 Putty on Linux
 **********
 
+install putty with these desription: 
+https://numato.com/blog/how-to-install-putty-on-linux/
 
+but before start the vnc Server see by medusa/access!!
 
+Step to Putty configuration below!
 
 Putty on MacOS
 **********
@@ -102,7 +106,9 @@ https://macresearch.org/putty-for-mac/
 
 then -> configurate Putty: 
 
-PuTTY is an SSH telnet client which, with a VNC Viewer, connects to the GUI. The steps after downloading PuTTY is as follows:
+but before start the vnc Server see by medusa/access!!
+
+A) PuTTY configuration: is an SSH telnet client which, with a VNC Viewer, connects to the GUI. The steps after downloading PuTTY is as follows:
 
       1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
       2. On the right hand side, click on the + next to SSH and then click Tunnels.
