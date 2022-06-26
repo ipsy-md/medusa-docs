@@ -122,6 +122,17 @@ A) PuTTY configuration: is an SSH telnet client which, with a VNC Viewer, connec
 
 Config & Settings 
 ******
+
+Bei Problemen von zu vielen gestarteten vncServern: 
+
+Sieht folgendermassen aus: 
+
+.. figure:: ./images/images_problems/problems_vncserver.png
+    :name: settings3.png
+    :alt:  settings3.png
+    :align: center
+    :width: 20%
+
 Killen von Prozessen auf dem Medusa Server, notwendig bei mehrfacher Anwendung von dem starten von vnc Servern: 
 
 .. code::
