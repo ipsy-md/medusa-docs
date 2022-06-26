@@ -52,35 +52,21 @@ VNC on MacOS
     
     Jetzt muesste es moeglich sein vnc Viewer & Connect zu nutzen! 
 
-.. figure:: ./images/images_vnc/controlled.png
-    :name: controlled.png
-    :alt:  controlled.png
-    :align: center
-    :width: 20%
-
- Test to controll !
- 
-.. figure:: ./images/images_vnc/becontrolled.png
-    :name: becontrolled.png
-    :alt: becontrolled.png
-    :align: center
-    :width: 20%
-
-Test to be controlled !
-
-
-
 
 
 
 VNC on Linux
 ****
-Text 
+
+configurate:
 
 
 
 VNC on Windows
 **********
+
+
+
 
 
 
