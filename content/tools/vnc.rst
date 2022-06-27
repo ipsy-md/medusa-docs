@@ -78,12 +78,53 @@ https://www.ssh.com/academy/ssh/putty/windows
 
 And short here: 
 
+
+
 Putty on Windows
 **********
 
 Download Putty. 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
+.. figure:: ./images/images_vnc/bar.png
+    :name: bar.png
+    :alt:  bar.png
+    :align: center
+    :width: 20%
+    
+    Finde in der Menueleiste die Systemeinstellungen 
+    
+.. figure:: ./images/images_vnc/settings.png
+    :name: settings.png
+    :alt:  settings.png
+    :align: center
+    :width: 20%
+    
+    Finde in den Systemeinstellungen die Freigaben 
+    
+.. figure:: ./images/images_vnc/settings1.png
+    :name: settings1.png
+    :alt:  settings1.png
+    :align: center
+    :width: 20%
+    
+    Finde in den Freigaben die entfernte Anmeldung 
+    
+.. figure:: ./images/images_vnc/settings2.png
+    :name: settings2.png
+    :alt:  settings2.png
+    :align: center
+    :width: 20%
+    
+    Gebe dein Passwort von deinem Benutzer ein und schalte den Zugang auf entferne Geraete sowohl bei dir als auch bei anderen System per ssh frei
+    
+.. figure:: ./images/images_vnc/settings3.png
+    :name: settings3.png
+    :alt:  settings3.png
+    :align: center
+    :width: 20%
+    
+    Jetzt muesste es moeglich sein vnc Viewer & Connect zu nutzen! 
 
 
 
@@ -96,6 +137,17 @@ https://numato.com/blog/how-to-install-putty-on-linux/
 but before start the vnc Server see by medusa/access!!
 
 Step to Putty configuration below!
+
+
+Problems on Linux 
+******
+
+Putty installation problems: 
+
+
+
+Tipp: if you Download realVNCviewer, you must recognize and check the architketur from the paketmanager and the paket which you want to install
+
 
 Putty on MacOS
 **********
@@ -118,6 +170,48 @@ A) PuTTY configuration: is an SSH telnet client which, with a VNC Viewer, connec
       6. Load and open session and connect to medusa and start the VNC Server (after setting up your password)
       7. Open a VNC Viewer, type localhost:59(session number) and connect.
       8. You will be required to enter your VNC password, afterwards you will have access to the GUI.
+
+
+.. figure:: ./images/images_vnc/bar.png
+    :name: bar.png
+    :alt:  bar.png
+    :align: center
+    :width: 20%
+    
+    Finde in der Menueleiste die Systemeinstellungen 
+    
+.. figure:: ./images/images_vnc/settings.png
+    :name: settings.png
+    :alt:  settings.png
+    :align: center
+    :width: 20%
+    
+    Finde in den Systemeinstellungen die Freigaben 
+    
+.. figure:: ./images/images_vnc/settings1.png
+    :name: settings1.png
+    :alt:  settings1.png
+    :align: center
+    :width: 20%
+    
+    Finde in den Freigaben die entfernte Anmeldung 
+    
+.. figure:: ./images/images_vnc/settings2.png
+    :name: settings2.png
+    :alt:  settings2.png
+    :align: center
+    :width: 20%
+    
+    Gebe dein Passwort von deinem Benutzer ein und schalte den Zugang auf entferne Geraete sowohl bei dir als auch bei anderen System per ssh frei
+    
+.. figure:: ./images/images_vnc/settings3.png
+    :name: settings3.png
+    :alt:  settings3.png
+    :align: center
+    :width: 20%
+    
+    Jetzt muesste es moeglich sein vnc Viewer & Connect zu nutzen! 
+    
 
 
 Config & Settings 
@@ -146,6 +240,7 @@ vncserver -kill :9
 .. code::
 
 pkill -u Benutzer
+
 
 
 
