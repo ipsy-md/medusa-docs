@@ -255,6 +255,8 @@ If everything looks good, then it's time to submit the jobs directly to condor.
 
 And you just submitted 1,000 jobs to condor.
 
+A collection of additional examples of submit scripts for example for Python
+can be found in the `htcondor-examples`_ git repo.
 
 Interactive Jobs
 ****************
@@ -373,3 +375,4 @@ sections on `Submitting a Job`_ and `Managing a Job`_.
 .. _official Condor documentation: https://htcondor.readthedocs.io/en/v8_8_5/
 .. _Submitting a Job: https://htcondor.readthedocs.io/en/v8_8_5/users-manual/submitting-a-job.html
 .. _Managing a Job: https://htcondor.readthedocs.io/en/v8_8_5/users-manual/managing-a-job.html
+.. _htcondor-examples: https://github.com/ipsy-md/htcondor-examples
