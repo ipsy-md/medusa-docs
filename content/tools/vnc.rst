@@ -24,7 +24,7 @@ VNC on MacOS
     :align: center
     :width: 20%
     
-    Finde in der Menueleiste die Systemeinstellungen 
+find in the menubar the systemsettings
     
 .. figure:: ./images/images_vnc/settings.png
     :name: settings.png
@@ -32,7 +32,7 @@ VNC on MacOS
     :align: center
     :width: 20%
     
-    Finde in den Systemeinstellungen die Freigaben 
+find in the systemsettings the enable option
     
 .. figure:: ./images/images_vnc/settings1.png
     :name: settings1.png
@@ -40,7 +40,7 @@ VNC on MacOS
     :align: center
     :width: 20%
     
-    Finde in den Freigaben die entfernte Anmeldung 
+    find in the enable folder the line removed login
     
 .. figure:: ./images/images_vnc/settings2.png
     :name: settings2.png
@@ -48,7 +48,7 @@ VNC on MacOS
     :align: center
     :width: 20%
     
-    Gebe dein Passwort von deinem Benutzer ein und schalte den Zugang auf entferne Geraete sowohl bei dir als auch bei anderen System per ssh frei
+    Enter your password from your user and enable access to remote devices on both your and other systems via ssh
     
 .. figure:: ./images/images_vnc/settings3.png
     :name: settings3.png
@@ -56,7 +56,7 @@ VNC on MacOS
     :align: center
     :width: 20%
     
-    Jetzt muesste es moeglich sein vnc Viewer & Connect zu nutzen! 
+    Now it should be possible to use vnc Viewer 
 
 
 
@@ -73,6 +73,22 @@ rpm
 deb
 arm
 amd
+
+Tipp: if you Download realVNCviewer, you must recognize and check the architektur from the paketmanager and the paket which you want to install
+
+.. figure:: ./images/images_vnc/architekturvnc.png
+    :name: architekturvnc.png
+    :alt:  architekturvnc.png
+    :align: center
+    :width: 20%
+    
+so decide wise.
+    
+.. figure:: ./images/images_vnc/architekturvnc1.png
+    :name: architekturvnc1.png
+    :alt:  architekturvnc1.png
+    :align: center
+    :width: 20%
 
 VNC on Windows
 **********
@@ -137,14 +153,13 @@ Download Putty & then install it
 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
-
 .. figure:: ./images/images_win_putty_vnc/hostname_putty.png
     :name: hostname_putty.png
     :alt:  hostname_putty.png
     :align: center
     :width: 50%
-    
-   1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
+
+1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
     
 .. figure:: ./images/images_win_putty_vnc/SSH_knotenpunkt.png
     :name: SSH_knotenpunkt.png
@@ -152,7 +167,8 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :align: center
     :width: 50%
     
-   find on the left side the SSH option
+    
+find on the left side the SSH option
    
 .. figure:: ./images/images_win_putty_vnc/ssh_tunnels.png
     :name: ssh_tunnels.png
@@ -160,7 +176,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :align: center
     :width: 50%
     
-   after that the ssh tunnels option
+after that the ssh tunnels option
 
 .. figure:: ./images/images_win_putty_vnc/sourceport.png
     :name: sourceport.png
@@ -168,8 +184,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :align: center
     :width: 50%
     
- 3. Type 59 + your session number for Source port (e.g. if your session number is 8 type 5908).
- 
+3. Type 59 + your session number for Source port (e.g. if your session number is 8 type 5908).
  
  
 .. figure:: ./images/images_win_putty_vnc/add_localhost.png
@@ -177,16 +192,17 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :alt:  add_localhost.png
     :align: center
     :width: 50%
-    
-    
- 4. Type localhost:59(session number) as Destination then click Add. (e.g. localhost:5908)
+       
+4. Type localhost:59(session number) as Destination then click Add. (e.g. localhost:5908)
 
-.. figure:: ./images/images_win_putty_vnc/GiveyourSessio_a_nameandSave.png
-    :name: GiveyourSessio_a_nameandSave.png
-    :alt:  GiveyourSessio_a_nameandSave.png
+
+.. figure:: ./images/images_win_putty_vnc/GiveyourSession_a_nameandSave.png
+    :name: GiveyourSession_a_nameandSave.png
+    :alt:  GiveyourSession_a_nameandSave.png
     :align: center
     :width: 50%
-
+  
+  
 5. Go back to session and you can save this session so you don’t have to repeat these steps each time you want to connect.
 
 .. figure:: ./images/images_win_putty_vnc/Load_save_settings_onputty.png
@@ -195,7 +211,8 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :align: center
     :width: 50%
     
-   6. Load and open session and connect to medusa and start the VNC Server (after setting up your password)
+6. Load and open session and connect to medusa and start the VNC Server (after setting up your password)
+   
    
    
 .. figure:: ./images/images_win_putty_vnc/downloadTightVNC_use_putty_configuration.png
@@ -204,7 +221,8 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :align: center
     :width: 50%
     
-  7. Open a VNC Viewer, type localhost:59(session number) and connect.
+7. Open a VNC Viewer, type localhost:59(session number) and connect.
+  
   
 .. figure:: ./images/images_win_putty_vnc/vncauthentication.png
     :name: vncauthentication.png
@@ -213,7 +231,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :width: 50%
     
     
-  8. You will be required to enter your VNC password, afterwards you will have access to the GUI.  
+8. You will be required to enter your VNC password, afterwards you will have access to the GUI.  
     
 .. figure:: ./images/images_win_putty_vnc/youmadeit.png
     :name: youmadeit.png
@@ -222,7 +240,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :width: 50%
     
     
-    you made it!
+you made it!
     
 Putty on Linux
 **********
@@ -240,13 +258,13 @@ Problems on Linux
 
 Putty installation problems: 
 
-globale Varibale definieren: bei problemen mit putty.
+define global Variable: by problems with putty on linux download.
 
 eingeben in Terminal:
 
 env GDK_BACKEND=x11 putty
 
-Tipp: if you Download realVNCviewer, you must recognize and check the architketur from the paketmanager and the paket which you want to install
+
 
 
 Putty on MacOS
@@ -279,9 +297,9 @@ A) PuTTY configuration: is an SSH telnet client which, with a VNC Viewer, connec
 Config & Settings 
 ******
 
-Bei Problemen von zu vielen gestarteten vncServern: 
+In case of problems from too many started vncServers: 
 
-Sieht folgendermassen aus: 
+Looks like this: 
 
 .. figure:: ./images/images_problems/problems_vncserver.png
     :name: problems_vncserver.png
