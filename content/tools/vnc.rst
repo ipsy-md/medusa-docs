@@ -102,7 +102,7 @@ Putty on Windows
     :name: onmedusa_server.png
     :alt:  onmedusa_server.png
     :align: center
-    :width: 20%
+    :width: 50%
     
 First Login to medusa Server. 
 
@@ -111,7 +111,7 @@ First Login to medusa Server.
     :name: first_vncpasswd.png
     :alt:  first_vncpasswd.png
     :align: center
-    :width: 20%
+    :width: 50%
     
 Then set the vnc server password with :
 
@@ -123,7 +123,7 @@ Then set the vnc server password with :
     :name: then_start_vncserver.png
     :alt:  then_start_vncserver.png
     :align: center
-    :width: 20%
+    :width: 50%
     
     Then start the vnc Server with
     
@@ -142,7 +142,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: hostname_putty.png
     :alt:  hostname_putty.png
     :align: center
-    :width: 20%
+    :width: 50%
     
    1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
     
@@ -150,7 +150,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: SSH_knotenpunkt.png
     :alt:  SSH_knotenpunkt.png
     :align: center
-    :width: 20%
+    :width: 50%
     
    find on the left side the SSH option
    
@@ -158,7 +158,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: ssh_tunnels.png
     :alt:  ssh_tunnels.png
     :align: center
-    :width: 20%
+    :width: 50%
     
    after that the ssh tunnels option
 
@@ -166,7 +166,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: sourceport.png
     :alt:  sourceport.png
     :align: center
-    :width: 20%
+    :width: 50%
     
  3. Type 59 + your session number for Source port (e.g. if your session number is 8 type 5908).
  
@@ -176,7 +176,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: add_localhost.png
     :alt:  add_localhost.png
     :align: center
-    :width: 20%
+    :width: 50%
     
     
  4. Type localhost:59(session number) as Destination then click Add. (e.g. localhost:5908)
@@ -185,7 +185,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: GiveyourSessio_a_nameandSave.png
     :alt:  GiveyourSessio_a_nameandSave.png
     :align: center
-    :width: 20%
+    :width: 50%
 
 5. Go back to session and you can save this session so you don’t have to repeat these steps each time you want to connect.
 
@@ -193,7 +193,7 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: Load_save_settings_onputty.png
     :alt:  Load_save_settings_onputty.png
     :align: center
-    :width: 20%
+    :width: 50%
     
    6. Load and open session and connect to medusa and start the VNC Server (after setting up your password)
    
@@ -202,16 +202,24 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :name: downloadTightVNC_use_putty_configuration.png
     :alt:  downloadTightVNC_use_putty_configuration.png
     :align: center
-    :width: 20%
+    :width: 50%
     
   7. Open a VNC Viewer, type localhost:59(session number) and connect.
+  
+.. figure:: ./images/images_win_putty_vnc/vncauthentication.png
+    :name: vncauthentication.png
+    :alt:  vncauthentication.png
+    :align: center
+    :width: 50%
+    
+    
   8. You will be required to enter your VNC password, afterwards you will have access to the GUI.  
     
-.. figure:: ./images/images_win_putty_vnc/Screenshot (24).png
-    :name: Screenshot (24).png
-    :alt:  Screenshot (24).png
+.. figure:: ./images/images_win_putty_vnc/youmadeit.png
+    :name: youmadeit.png
+    :alt:  youmadeit.png
     :align: center
-    :width: 20%
+    :width: 50%
     
     
     you made it !
