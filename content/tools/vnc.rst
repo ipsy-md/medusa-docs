@@ -222,7 +222,8 @@ https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
     :width: 50%
     
     
-    you made it !
+    you made it!
+    
 Putty on Linux
 **********
 
@@ -271,45 +272,7 @@ A) PuTTY configuration: is an SSH telnet client which, with a VNC Viewer, connec
       8. You will be required to enter your VNC password, afterwards you will have access to the GUI.
 
 
-.. figure:: ./images/images_vnc/bar.png
-    :name: bar.png
-    :alt:  bar.png
-    :align: center
-    :width: 20%
-    
-    Finde in der Menueleiste die Systemeinstellungen 
-    
-.. figure:: ./images/images_vnc/settings.png
-    :name: settings.png
-    :alt:  settings.png
-    :align: center
-    :width: 20%
-    
-    Finde in den Systemeinstellungen die Freigaben 
-    
-.. figure:: ./images/images_vnc/settings1.png
-    :name: settings1.png
-    :alt:  settings1.png
-    :align: center
-    :width: 20%
-    
-    Finde in den Freigaben die entfernte Anmeldung 
-    
-.. figure:: ./images/images_vnc/settings2.png
-    :name: settings2.png
-    :alt:  settings2.png
-    :align: center
-    :width: 20%
-    
-    Gebe dein Passwort von deinem Benutzer ein und schalte den Zugang auf entferne Geraete sowohl bei dir als auch bei anderen System per ssh frei
-    
-.. figure:: ./images/images_vnc/settings3.png
-    :name: settings3.png
-    :alt:  settings3.png
-    :align: center
-    :width: 20%
-    
-    Jetzt muesste es moeglich sein vnc Viewer & Connect zu nutzen! 
+
     
 
 
