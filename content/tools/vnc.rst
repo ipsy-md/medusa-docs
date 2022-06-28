@@ -9,6 +9,12 @@ Download VNC Viewer and VNC Connect, for Linux/MacOS/Windows,  and more ...
 
 https://www.realvnc.com/de/connect/download/viewer/macos/
 
+guter link fuer die installation linux, vncviewer, tightvnc und putty configuration: 
+
+https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-20-04-de
+
+
+
 VNC on MacOS
 *********
 
@@ -134,7 +140,7 @@ Putty on Linux
 install putty with these desription: 
 https://numato.com/blog/how-to-install-putty-on-linux/
 
-but before start the vnc Server see by medusa/access!!
+
 
 Step to Putty configuration below!
 
@@ -144,7 +150,11 @@ Problems on Linux
 
 Putty installation problems: 
 
+globale Varibale definieren: bei problemen mit putty.
 
+eingeben in Terminal:
+
+env GDK_BACKEND=x11 putty
 
 Tipp: if you Download realVNCviewer, you must recognize and check the architketur from the paketmanager and the paket which you want to install
 
