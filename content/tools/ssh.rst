@@ -156,7 +156,7 @@ you should read ``man ssh_config``. These options are all set in the
    understanding of the situation should be.
    
    
-   SSH on Windows
+SSH on Windows
 ******
 
 If you have the SSH client installed go to 2.
