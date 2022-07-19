@@ -116,6 +116,11 @@ Purchased 2015.12. Supermicro's specs: `825TQ-R740LPB Chassis`_ and `X10DRi-T Mo
 
 Mulder
 ******
+* 1x 4-core 3.2 GHz Intel Xeon E3-1230
+* 16 GiB RAM (4x 4GiB DDR3)
+* 5.5 TB mounted at /media/data
+* 2x 1Gb Nic (?)
+
 .. class:: todo
 
   **TODO:** Add Mulder's specs
