@@ -155,49 +155,6 @@ you should read ``man ssh_config``. These options are all set in the
    technically untrue.  But it is a reasonable approximation for what a user's
    understanding of the situation should be.
 
-
-SSH on Windows
-**************
-
-How to install the SSH Client on Windows 10
-
-#. Press the Search button and type “Optional feature”
-   -> Click the top result, which should read, “Add an optional feature”.
-
-#. Click “Add a feature” in Settings
-
-#. Install the Windows OpenSSH Client
-   -> Type “SSH” in the optional features search bar, then tick the entry that reads “OpenSSH Client”.
-   Finally, click the “Install” button at the bottom of your Window.
-   The process will take a few seconds to complete and shouldn’t require a restart.
-
-How to Use SSH in Commands in Windows 10
-
-#. Open Command Prompt (or Powershell)
-   -> Press Start and then type “Command Prompt”. Click the top result.
-
-#. Run the SSH command to view its usage guide
-   -> Command Prompt will return a full list of options and syntax for you to use as you require.
-
-#. Connect to your server via your Windows Open SSH client
-   -> In most cases, you won’t need the above options to connect to your SSH server. Instead, you can simply run:
-
-    .. code::
-
-        ssh username@medusa.ovgu.de
-
-If it is the first time that you have connected to this server with SSH, you
-will receive a prompt similar to the following:
-
-.. code::
-
-    The authenticity of host 'medusa.ovgu.de (141.44.17.54)' can't be established.
-    ECDSA key fingerprint is SHA256:fgvO3iB0fUsVjbrXLhg8h8ZPZdXa55rnwR+9P72O7oU.
-    Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-Type "yes" to confirm the fingerprint (please see the `explanation of fingerprints <#fingerprints>`_
-below).
-
 Authenticate, and you now have an interactive session on the remote machine.
 
 
