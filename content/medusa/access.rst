@@ -19,6 +19,11 @@ Connecting is as simple as running the following in your terminal:
   **NOTE:** Users with unstable internet connections will likely find
   `tmux </docs/tools/tmux/>`_ to be a helpful tool.
 
+VPN
+*********
+You need a vpn connection to go on the medusa server:
+https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
+
 Graphical
 *********
 There are multiple methods of connecting to Medusa graphically.
