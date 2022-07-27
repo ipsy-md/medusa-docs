@@ -151,7 +151,17 @@ There are multiple methods of connecting to Medusa graphically.
     :align: center
     :width: 100%
 
+
 you made it!
+
+|pic1| any text |pic2|
+
+.. |pic1| image:: /docs/medusa/images/images_win_putty_vnc/username_save1.png
+   :width: 50%
+
+.. |pic2| image:: /docs/medusa/images/images_win_putty_vnc/Port_number.png
+   :width: 50%
+
 
 Helpful Commands
 *********
