@@ -19,20 +19,6 @@ Logging into a remote machine is quite simple with SSH:
 
     ssh username@medusa.ovgu.de
 
-If it is the first time that you have connected to this server with SSH, you
-will receive a prompt similar to the following:
-
-.. code::
-
-    The authenticity of host 'medusa.ovgu.de (141.44.17.54)' can't be established.
-    ECDSA key fingerprint is SHA256:fgvO3iB0fUsVjbrXLhg8h8ZPZdXa55rnwR+9P72O7oU.
-    Are you sure you want to continue connecting (yes/no/[fingerprint])?
-
-Type "yes" to confirm the fingerprint (please see the `explanation of fingerprints <#fingerprints>`_
-below).
-
-Authenticate, and you now have an interactive session on the remote machine.
-
 SSH on Windows
 **************
 
@@ -57,8 +43,22 @@ How to Use SSH in Commands in Windows 10
    -> Command Prompt will return a full list of options and syntax for you to use as you require.
 
 #. Connect to your server via your Windows Open SSH client
-   -> In most cases, you won’t need the above options to connect to your SSH server. Instead, you can simply run:
-   go to A. above!
+   -> In most cases, you won’t need the above options to connect to your SSH server. 
+   
+If it is the first time that you have connected to this server with SSH, you
+will receive a prompt similar to the following:
+
+.. code::
+
+    The authenticity of host 'medusa.ovgu.de (141.44.17.54)' can't be established.
+    ECDSA key fingerprint is SHA256:fgvO3iB0fUsVjbrXLhg8h8ZPZdXa55rnwR+9P72O7oU.
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+
+Type "yes" to confirm the fingerprint (please see the `explanation of fingerprints <#fingerprints>`_
+below).
+
+Authenticate, and you now have an interactive session on the remote machine.
+
 
 Keys
 ****
