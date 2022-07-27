@@ -21,7 +21,7 @@ Connecting is as simple as running the following in your terminal:
 
 VPN
 *********
-You need a vpn connection to go on the medusa server:
+You need a VPN connection to go on the medusa server.
 https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
 
 Graphical
@@ -145,11 +145,6 @@ There are multiple methods of connecting to Medusa graphically.
      :align: center
      :width: 100%
      
-
-
-
-
-
 .. figure:: /docs/medusa/images/images_win_putty_vnc/youmadeit.png
     :name: youmadeit.png
     :alt:  youmadeit.png
@@ -158,27 +153,18 @@ There are multiple methods of connecting to Medusa graphically.
 
 you made it!
 
-Config & Settings
-*****************
+Helpful Commands
+*********
 
-In case of problems from too many started vnc servers:
-
-Looks like this:
-
-show how many processes are started.
+In case of problems from too many started vnc servers
 
 .. code::
 
-    ps aux | grep Benutzer | grep vnc
+    vncserver -list
 
 
-kill the process from to many started vnc server:
+kill the process from to many started vnc server
 
 .. code::
 
     vncserver -kill :9
-
-.. code::
-
-    pkill -u Benutzer
-
