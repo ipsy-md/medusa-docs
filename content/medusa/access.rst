@@ -21,8 +21,9 @@ Connecting is as simple as running the following in your terminal:
 
 VPN
 *********
-You need a VPN connection to go on the medusa server.
-https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
+You need a `VPN`_ connection to go on the medusa server.
+
+.. _VPN: https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
 
 Graphical
 *********
@@ -109,23 +110,39 @@ There are multiple methods of connecting to Medusa graphically.
       **TODO**: write a simple shell script that can be ``curl``-ed into the user's path.
 
   **Windows**
-    Windows lacks a built-in VNC viewer, so you will need `TightVNC Java
-    Viewer`_. Be sure to download the **TightVNC Java Viewer**; it is not the
-    first link on their download page. You will also need Java installed in
-    order to run it.
+    Be sure to download the "VNC Viewer".
 
     Launch the viewer and enter the following information:
 
-   1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
-   2. On the right hand side, click on the + next to SSH and then click Tunnels.
-   3. Type 59 + your session number for Source port (e.g. if your session number is 11 type 5911).
-   4. Type localhost:59(session number, here 11) as Destination then click Add. (e.g. localhost:5911)
-   5. Go back to session and you can save this session so you don’t have to repeat these steps each time you want to connect.
-   6. Load and open session and connect to medusa and start the VNC Server (after setting up your password)
-   7. Open a VNC Viewer, type localhost:59(session number) and connect.
-   8. You will be required to enter your VNC password, afterwards you will have access to the GUI.
-    Note the port number: "5911". It should be 5900 + the ``number`` we
-    noted above. Make sure that it is *your* number.
+  **Putty Configuration on Windows**
+
++------------------------+------------------------------------------------------------------------------------+
+|   Points               | Steps                                                                              |
++========================+====================================================================================+
+| 1                      | Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22           |
++------------------------+------------------------------------------------------------------------------------+
+| 2                      | On the right hand side, click on the + next to SSH and then click Tunnels.         |
++------------------------+------------------------------------------------------------------------------------+
+| 3                      | Type 59 + your session number for Source port                                      |
+|                        | (e.g. if your session number is 11 type 5911).                                     |
++------------------------+------------------------------------------------------------------------------------+
+| 4                      | Type localhost:59 (session number, here 11) as Destination then click Add.         |
+|                        | (e.g. localhost:5911)                                                              |
++------------------------+------------------------------------------------------------------------------------+
+| 5                      | Go back to session and you can save this session so you don’t have to repeat       |
+|                        | these steps each time you want to connect.                                         |
++------------------------+------------------------------------------------------------------------------------+
+| 6                      | Load and open session and connect to medusa and start the VNC Server               |
+|                        | (after setting up your password)                                                   |
++------------------------+------------------------------------------------------------------------------------+
+| 7                      | Open a VNC Viewer, type localhost:59(session number) and connect.                  |
++------------------------+------------------------------------------------------------------------------------+
+| 8                      | You will be required to enter your VNC password, afterwards you will               |
+|                        | have access to the GUI.                                                            |
++------------------------+------------------------------------------------------------------------------------+
+
+  Note the port number: "5911". It should be 5900 + the ``number`` we
+  noted above. Make sure that it is *your* number.
 
 |pic1| first |pic2|
 
@@ -144,28 +161,15 @@ There are multiple methods of connecting to Medusa graphically.
    :width: 45%
 
 
-you made it!
+**Helpful Commands**
 
-|pic3| follow |pic4|
-
-.. |pic3| image:: /docs/medusa/images/vnc_connection.png
-   :width: 45%
-
-.. |pic4| image:: /docs/medusa/images/youmadeit.png
-   :width: 45%
-
-
-Helpful Commands
-*********
-
-In case of problems from too many started vnc servers
+How to show the List of started VNC Server.
 
 .. code::
 
     vncserver -list
 
-
-kill the process from to many started vnc server
+How to kill the process from to many started vnc server (9 is the sessionnumber).
 
 .. code::
 

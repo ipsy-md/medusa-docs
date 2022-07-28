@@ -19,9 +19,7 @@ Logging into a remote machine is quite simple with SSH:
 
     ssh username@medusa.ovgu.de
 
-SSH on Windows
-**************
-
+**SSH on Windows**
 How to install the SSH Client on Windows 10
 
 #. Press the Search button and type “Optional feature”
@@ -43,8 +41,8 @@ How to Use SSH in Commands in Windows 10
    -> Command Prompt will return a full list of options and syntax for you to use as you require.
 
 #. Connect to your server via your Windows Open SSH client
-   -> In most cases, you won’t need the above options to connect to your SSH server. 
-   
+   -> In most cases, you won’t need the above options to connect to your SSH server.
+
 If it is the first time that you have connected to this server with SSH, you
 will receive a prompt similar to the following:
 
@@ -187,4 +185,3 @@ Authenticate, and you now have an interactive session on the remote machine.
 
     Tutorial:
     (https://winbuzzer.com/2021/08/25/how-to-enable-and-use-ssh-commands-on-windows-10-xcxwbt/)
-
