@@ -115,7 +115,7 @@ There are multiple methods of connecting to Medusa graphically.
     order to run it.
 
     Launch the viewer and enter the following information:
-    
+
    1. Specify host name as your medusa login (name@medusa.ovgu.de) and Port 22
    2. On the right hand side, click on the + next to SSH and then click Tunnels.
    3. Type 59 + your session number for Source port (e.g. if your session number is 11 type 5911).
@@ -127,39 +127,31 @@ There are multiple methods of connecting to Medusa graphically.
     Note the port number: "5911". It should be 5900 + the ``number`` we
     noted above. Make sure that it is *your* number.
 
-.. figure:: /docs/medusa/images/finalone.png
-     :name: finalone.png
-     :alt:  finalone.png
-     :align: center
-     :width: 100%
-     
-.. figure:: /docs/medusa/images/finaltwo.png
-     :name: finaltwo.png
-     :alt:  finaltwo.png
-     :align: center
-     :width: 100%
-     
-.. figure:: /docs/medusa/images/vnc_connection.png
-     :name: vnc_connection.png
-     :alt:  vnc_connection.png
-     :align: center
-     :width: 100%
-     
-.. figure:: /docs/medusa/images/youmadeit.png
-    :name: youmadeit.png
-    :alt:  youmadeit.png
-    :align: center
-    :width: 100%
+|pic1| first |pic2|
+
+.. |pic1| image:: /docs/medusa/images/finalone.png
+   :width: 45%
+
+.. |pic2| image:: /docs/medusa/images/finaltwo.png
+   :width: 45%
+
+|pic3| second |pic4|
+
+.. |pic3| image:: /docs/medusa/images/vnc_connection.png
+   :width: 45%
+
+.. |pic4| image:: /docs/medusa/images/youmadeit.png
+   :width: 45%
 
 
 you made it!
 
-|pic1| any text |pic2|
+|pic3| follow |pic4|
 
-.. |pic1| image:: ./images/finalone.png
+.. |pic3| image:: /docs/medusa/images/vnc_connection.png
    :width: 45%
 
-.. |pic2| image:: ./images/finaltwo.png
+.. |pic4| image:: /docs/medusa/images/youmadeit.png
    :width: 45%
 
 
