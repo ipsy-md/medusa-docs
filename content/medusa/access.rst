@@ -169,8 +169,8 @@ How to show the List of started VNC Server.
 
     vncserver -list
 
-How to kill the process from to many started vnc server (9 is the sessionnumber).
+How to kill the process from to many started vnc server (11 is the sessionnumber).
 
 .. code::
 
-    vncserver -kill :9
+    vncserver -kill :11
