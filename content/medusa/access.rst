@@ -153,13 +153,13 @@ After successfully establishing a VNC connection the desktop will look like this
 
 **Helpful Commands**
 
-How to show the List of started VNC Server.
+How to show the list of started VNC servers:
 
 .. code::
 
     vncserver -list
 
-How to kill the process from to many started vnc server (11 is the sessionnumber).
+How to kill the process from too many started vnc server (11 is the session number):
 
 .. code::
 
