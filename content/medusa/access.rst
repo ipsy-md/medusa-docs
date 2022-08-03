@@ -19,6 +19,12 @@ Connecting is as simple as running the following in your terminal:
   **NOTE:** Users with unstable internet connections will likely find
   `tmux </docs/tools/tmux/>`_ to be a helpful tool.
 
+VPN
+*********
+You need a VPN connection to be able to log in to medusa. A description how
+to configure a VPN client can be found on the
+`OVGU URZ page <https://www.urz.ovgu.de/urz/en/vpn.html>`_
+
 Graphical
 *********
 There are multiple methods of connecting to Medusa graphically.
@@ -104,29 +110,57 @@ There are multiple methods of connecting to Medusa graphically.
       **TODO**: write a simple shell script that can be ``curl``-ed into the user's path.
 
   **Windows**
-    Windows lacks a built-in VNC viewer, so you will need `TightVNC Java
-    Viewer`_. Be sure to download the **TightVNC Java Viewer**; it is not the
-    first link on their download page. You will also need Java installed in
-    order to run it.
+    Windows lacks a built-in VNC viewer, so you will need to download and
+    install one of your choice, here
+    `VNC viewer <https://www.realvnc.com/en/connect/download/viewer/>`_
+    is used. To be able to establish a ssh tunnel
+    `PuTTY <https://www.putty.org/>`_ is used in addition.
 
-    Launch the viewer and enter the following information:
+    0. Connect to medusa and start the VNC Server (after setting up your password) to get your session number.
+    1. Open putty and specify ``Host Name`` as your medusa login (name@medusa.ovgu.de) and ``Port`` 22
+    2. On the right hand side, click on the + next to ``SSH`` and then click ``Tunnels``.
+    3. Type 59(session number) for ``Source port`` (e.g. if your session number is 11 type 5911).
+    4. Type localhost:5900 + your unique session number (here 11) as ``Destination`` then click ``Add``. (e.g. localhost:5911)
+    5. Go back to ``Session``. If you don't want to repeat this steps each time you connect to medusa, save this session.
+    6. Load and open the session to connect to medusa.
+    7. Open a VNC Viewer, type localhost:59(session number) and connect.
+    8. You will be required to enter your VNC password. Afterwards you will have access to the GUI.
 
-    * Remote Host: 127.0.0.1
-    * Port: 5900 + your unique session number (e.g. 5909)
-    * Check "Use SSH Tunneling"
-    * SSH server: medusa.ovgu.de
-    * SSH port: 22
-    * SSH User: <your username>
-
-    Note the port number: "5909". It should be 5900 + the ``number`` we
+    Note the port number: "5911". It should be 5900 + the ``number`` we
     noted above. Make sure that it is *your* number.
 
-    Upon connecting, you will first be asked to authenticate to Medusa; then it
-    will ask for the VNC password you set before.
+    Putty:
 
-  .. class:: todo
+    |pic1| |pic2|
 
-    **TODO**: Move most of this VNC info to ``tools/VNC``. Or avoid the entire
-    mess by migrating to HTTP-based VNC (like Guacamole).
+    .. |pic1| image:: /docs/medusa/images/finaltwo.png
+       :width: 45%
 
-  .. _TightVNC Java Viewer: http://www.tightvnc.com/download.php
+    .. |pic2| image:: /docs/medusa/images/finalone.png
+       :width: 45%
+
+    VNC Viewer:
+
+    .. image:: /docs/medusa/images/vnc_connection.png
+         :align: center
+         :width: 80%
+
+After successfully establishing a VNC connection the desktop will look like this:
+
+.. image:: /docs/medusa/images/youmadeit.png
+     :align: center
+     :width: 90%
+
+**Helpful Commands**
+
+How to show the list of started VNC servers:
+
+.. code::
+
+    vncserver -list
+
+How to kill the process from too many started vnc server (11 is the session number):
+
+.. code::
+
+    vncserver -kill :11
