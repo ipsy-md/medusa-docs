@@ -21,9 +21,9 @@ Connecting is as simple as running the following in your terminal:
 
 VPN
 *********
-You need a `VPN`_ connection to go on the medusa server.
-
-.. _VPN: https://www.urz.ovgu.de/urz/en/vpn-path-204,616.html
+You need a VPN connection to be able to log in to medusa. A description how
+to configure a VPN client can be found on the
+`OVGU URZ page <https://www.urz.ovgu.de/urz/en/vpn.html>`_
 
 Graphical
 *********
