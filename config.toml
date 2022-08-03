@@ -19,10 +19,6 @@ disablePathToLower = true
     startLevel = 1
     endLevel = 9
 
-[security]
-  [security.exec]
-    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$', '^rst2html$']
-
 #[params]
 #    geekdocMenuBundle = true
 #	geekdocOverwriteHTMLBase = true
