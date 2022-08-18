@@ -27,7 +27,7 @@ When starting new projects, it is highly recommended to use DataLad to ease remo
 Backups
 *******
 All data located under the ``/home`` directory are snapshot at 05:00 every day — *except* for any data located in the ``/home/<user_name>/scratch`` or ``/home/data/<project_name>/scratch`` folders.
-Snapshots are then transferred to a dedicated backup server located in a different building on the OvGU campus.
+Snapshots are then transferred to a dedicated backup server.
 
 The backup retention policy is:
 
