@@ -79,22 +79,18 @@ The slots on Medusa are:
 .. code::
 
   16x    1 cpu,   4 GiB   ( 4.0 GiB/cpu)
-  16x    1 cpu,   6 GiB   ( 6.0 GiB/cpu)
-  12x    1 cpu,   5 GiB   ( 5.0 GiB/cpu)
-   6x   10 cpu,  85 GiB   ( 8.5 GiB/cpu)
-   2x   16 cpu, 255 GiB   (15.9 GiB/cpu)
+   8x    1 cpu,   5 GiB   ( 5.0 GiB/cpu)
+   4x   10 cpu,  85 GiB   ( 8.5 GiB/cpu)
    1x   48 cpu, 190 GiB   ( 3.9 GiB/cpu)
-   1x   20 cpu,  95 GiB   ( 4.7 GiB/cpu)
-   1x   16 cpu, 415 GiB   (25.9 GiB/cpu)
    1x    8 cpu,  62 GiB   ( 7.7 GiB/cpu)
    1x    4 cpu,  18 GiB   ( 4.5 GiB/cpu)
 
 All slots larger than 1 CPU are partitionable — and thus can be broken into many
-smaller slots. To illustrate: there are only 44x 1 CPU slots. But if 500x [1
+smaller slots. To illustrate: there are only 24x 1 CPU slots. But if 500x [1
 CPU × 4 GiB] jobs are submitted, all of the larger slots are broken up into
 matching [1 CPU × 4 GiB] slots — resulting in a total of 231 jobs.
 
-The reader may have noticed that there are 232 CPUs, and yet only 231 jobs would
+The reader may have noticed that there are 124 CPUs, and yet only 123 jobs would
 be scheduled. This is because the [48 CPU × 190 GiB] slot (which has a RAM/CPU
 ratio < 4 GiB) cannot provide 4 GiB to each CPU; thus, one CPU is left idle.
 
