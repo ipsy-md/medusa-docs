@@ -8,6 +8,13 @@ FreeSurfer, Octave, Python, R, Matlab, etc). The majority of software is
 configured to work out-of-the-box, but some software requires additional setup
 by each user before they can be used.
 
+Software Stack
+**************
+To make all software needed by the users available in a reproducable way Medusa
+uses software stacks.
+
+Further information can be found via `Software stack </docs/medusa/software/software_stacks>`_
+
 AFNI
 ****
 AFNI ships with commands which are named the same as commands from other
