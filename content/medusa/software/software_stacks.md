@@ -27,8 +27,8 @@ Paths:
 
 - stack that will be updated regularly and on short notice user requests
 - updating instead of building from scratch can lead to multiple versions of software (e.g. `python ~gcc@11.0` vs `python ~gcc@11.1`)
-- same access methods as in `current` are available, but due to multiple versions not unambiguous
-  -> recommended method: environment
+- same access methods as in `current` are available, but due to multiple versions not unambiguous\
+  -> recommended method: use environment to load stack
 
 Paths:
 - stack: `/home/data/software/experimental`
