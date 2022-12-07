@@ -103,9 +103,10 @@ server (i.e. on campus).
 
 X Forwarding also requires that your local machine has X installed. This is the
 default on Linux systems, but macOS systems need to install `XQuartz`_ [#XquartzVersion]_
-while Windows 10 systems need VcXsrv installed via WSL.
+while Windows 10 systems need `VcXsrv`_ installed via WSL.
 
 .. _XQuartz: https://www.xquartz.org/releases/XQuartz-2.7.7.html
+.. _VcXsrv: https://sourceforge.net/projects/vcxsrv/
 
 Jump Hosts
 **********
