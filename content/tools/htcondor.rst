@@ -371,8 +371,9 @@ Documentation
 The `official Condor documentation`_ is long, but comprehensive. If you have
 questions, their docs are a great resource. Pay special attention to the
 sections on `Submitting a Job`_ and `Managing a Job`_.
+Medusa is quite old and thus there is still an old htcondor version running (version 8.6.8) for which no documentation exists anymore.
 
-.. _official Condor documentation: https://htcondor.readthedocs.io/en/v8_8_5/
-.. _Submitting a Job: https://htcondor.readthedocs.io/en/v8_8_5/users-manual/submitting-a-job.html
-.. _Managing a Job: https://htcondor.readthedocs.io/en/v8_8_5/users-manual/managing-a-job.html
+.. _official Condor documentation: https://htcondor.readthedocs.io/en/latest/
+.. _Submitting a Job: https://htcondor.readthedocs.io/en/latest/users-manual/submitting-a-job.html
+.. _Managing a Job: https://htcondor.readthedocs.io/en/latest/users-manual/managing-a-job.html
 .. _htcondor-examples: https://github.com/ipsy-md/htcondor-examples
