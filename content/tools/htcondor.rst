@@ -255,6 +255,10 @@ If everything looks good, then it's time to submit the jobs directly to condor.
 
 And you just submitted 1,000 jobs to condor.
 
+
+Examples
+========
+
 A collection of additional examples of submit scripts for example for Python
 can be found in the `htcondor-examples`_ git repo.
 
