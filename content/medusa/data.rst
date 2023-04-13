@@ -56,7 +56,7 @@ To/From Medusa
 
   .. code::
 
-    rsync -avh --progress dir_here/ user@medusa.ovgu.de:~/dir_there
+    rsync -rltoDvh --progress dir_here/ user@medusa.ovgu.de:~/dir_there
 
 WinSCP or Cyberduck
   If you prefer using a GUI, `WinSCP`_ (Windows) and `Cyberduck`_ (macOS and Windows) are decent SFTP clients.
