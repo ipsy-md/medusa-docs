@@ -65,7 +65,10 @@ To see what software is available run:
 module avail
 ```
 
+<!--
 ### directly via spack
+
+***This currently does not work because the python on medusa ist too old run work with spack directly***
 
 to enable shell support, source
 ```
@@ -96,6 +99,7 @@ $ spack unload python@3.8.12
 
 Remark: the main python and r packages are kept as seperate packages and thus
 have to be loaded separately. e.g. `spack load r-rstan`
+-->
 
 
 ### via modules
