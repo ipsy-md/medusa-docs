@@ -11,6 +11,8 @@ While the initial learning curve can be steep, the rewards are well worth it.
 Command line programs tend to be faster, more flexible, and more scalable than
 their GUI counterparts.
 
+Below you can find a basic overview of how a command line program works, if you want a hand on tutorial, you can find good ones for example on `Software Carpentry <https://swcarpentry.github.io/shell-novice/>`_ or `HPC Carpentry <http://www.hpc-carpentry.org/hpc-shell/>`_
+
 Syntax
 ******
 Commands are case sensitive and follow the syntax of:
