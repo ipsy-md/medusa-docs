@@ -347,6 +347,11 @@ All jobs from all users in the queue
 
     condor_q -nobatch -allusers
 
+See why job is on hold
+  .. code::
+
+    condor_q -hold
+
 Explain why a job is in a particular state
   .. code::
 
