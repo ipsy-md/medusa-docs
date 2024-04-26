@@ -107,9 +107,9 @@ have to be loaded separately. e.g. `spack load r-rstan`
 For every installed package spack generates a module file in addition meaning
 that classic module commands can be used as well.
 
-again shell support has to be enabled
+Again shell support has to be enabled
 ```
-$ . /home/data/software/current/spack/share/spack/setup-env.sh
+$ . /home/data/software/current/env.sh
 ```
 
 to see what packages are installed run
