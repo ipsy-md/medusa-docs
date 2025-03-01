@@ -83,7 +83,6 @@ The slots on Medusa are:
    4x   10 cpu,  85 GiB   ( 8.5 GiB/cpu)
    1x   48 cpu, 190 GiB   ( 3.9 GiB/cpu)
    1x    8 cpu,  62 GiB   ( 7.7 GiB/cpu)
-   1x    4 cpu,  18 GiB   ( 4.5 GiB/cpu)
 
 All slots larger than 1 CPU are partitionable — and thus can be broken into many
 smaller slots. To illustrate: there are only 24x 1 CPU slots. But if 500x [1
