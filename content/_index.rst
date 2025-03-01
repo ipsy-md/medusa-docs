@@ -11,7 +11,7 @@ Cecile documentation
 ********************
 If you are looking for documentation about the new Cecile cluster you can find a beta version here:
 
-    `<https://ipsy-md.github.io/temp-ipsy/>`_
+    `<https://ipsy-md.github.io/docs/>`_
 
 Once this is finished it will replace the current IPSY docs.
 
