@@ -4,8 +4,8 @@ geekdocCollapseSection: true
 weight: 600
 ---
 
-In addition to the `computational cluster </docs/medusa/>`_ and
-`experimental labs </docs/labs/>`_, IPSY and the wider OvGU community
+In addition to the `computational cluster </medusa-docs/medusa/>`_ and
+`experimental labs </medusa-docs/labs/>`_, IPSY and the wider OvGU community
 provide a range of services.
 
 .. raw:: html

@@ -13,7 +13,7 @@ Software Stack
 To make all software needed by the users available in a reproducable way Medusa
 uses software stacks.
 
-Further information can be found via `Software stack </docs/medusa/software/software_stacks>`_
+Further information can be found via `Software stack </medusa-docs/medusa/software/software_stacks>`_
 
 AFNI
 ****
@@ -147,7 +147,7 @@ of modules that are available to ``import``.
 If you need a python module that is not yet installed and think it is of
 interest and utility to other cluster users, just ask Alex to deploy it on the
 cluster. Alternatively, you can `install it in a virtualenv
-</docs/tools/python/#virtual-environments>`_.
+</medusa-docs/tools/python/#virtual-environments>`_.
 
 R
 **
@@ -156,4 +156,4 @@ CRAN that are available via the ``library()`` command.
 
 If you need an R package that is not yet installed (and there is a Debian
 package for it), just ask Alex to deploy it on the cluster. Alternatively, you
-can `install it from CRAN </docs/tools/r/#cran>`_.
+can `install it from CRAN </medusa-docs/tools/r/#cran>`_.

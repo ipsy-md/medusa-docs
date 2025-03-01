@@ -6,7 +6,7 @@ weight: 900
 
 Backup Policy
 *************
-For the cluster and all servers, `backups are performed daily </docs/medusa/data/#backups>`_.
+For the cluster and all servers, `backups are performed daily </medusa-docs/medusa/data/#backups>`_.
 
 For laptops and desktops, there is no centralized backup process. It is your
 responsibility to come up with a solution that meets your needs.
@@ -51,7 +51,7 @@ Transferring Data
 There are numerous methods to share/publish/exchange data with others.
 
 "Small" (< 5 GB)
-  Use your `personal webspace </docs/services/hosted/#webspace>`_ on Kumo.
+  Use your `personal webspace </medusa-docs/services/hosted/#webspace>`_ on Kumo.
 
 Larger, One-time Transfers
   A dedicated account (``ferry``) is used on Medusa to exchange larger

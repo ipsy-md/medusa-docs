@@ -6,7 +6,7 @@ weight: 230
 Command Line
 ************
 The easiest and most reliable way of connecting to Medusa is via
-`SSH </docs/tools/ssh/>`_.
+`SSH </medusa-docs/tools/ssh/>`_.
 
 Connecting is as simple as running the following in your terminal:
 
@@ -17,7 +17,7 @@ Connecting is as simple as running the following in your terminal:
 .. class:: note
 
   **NOTE:** Users with unstable internet connections will likely find
-  `tmux </docs/tools/tmux/>`_ to be a helpful tool.
+  `tmux </medusa-docs/tools/tmux/>`_ to be a helpful tool.
 
 VPN
 *********
@@ -31,7 +31,7 @@ There are multiple methods of connecting to Medusa graphically.
 
 **X Forwarding**
   Graphical programs run on the remote server can be displayed locally using
-  `SSH's X Forwarding </docs/tools/ssh/#x%20forwarding>`_. Do note that X Forwarding
+  `SSH's X Forwarding </medusa-docs/tools/ssh/#x%20forwarding>`_. Do note that X Forwarding
   is very sensitive to latency, so it is only practical to use when on the OvGU
   campus.
 
@@ -40,7 +40,7 @@ There are multiple methods of connecting to Medusa graphically.
     ssh -X username@medusa.ovgu.de
 
 **Sixel**
-  `Sixel </docs/tools/sixel/>`_ is mostly a toy right now. But it is quite convenient
+  `Sixel </medusa-docs/tools/sixel/>`_ is mostly a toy right now. But it is quite convenient
   in the few situations where there is support (image and NIfTI previews).
 
 **VNC**
@@ -133,21 +133,21 @@ There are multiple methods of connecting to Medusa graphically.
 
     |pic1| |pic2|
 
-    .. |pic1| image:: /docs/medusa/images/finaltwo.png
+    .. |pic1| image:: /medusa-docs/medusa/images/finaltwo.png
        :width: 45%
 
-    .. |pic2| image:: /docs/medusa/images/finalone.png
+    .. |pic2| image:: /medusa-docs/medusa/images/finalone.png
        :width: 45%
 
     VNC Viewer:
 
-    .. image:: /docs/medusa/images/vnc_connection.png
+    .. image:: /medusa-docs/medusa/images/vnc_connection.png
          :align: center
          :width: 80%
 
 After successfully establishing a VNC connection the desktop will look like this:
 
-.. image:: /docs/medusa/images/youmadeit.png
+.. image:: /medusa-docs/medusa/images/youmadeit.png
      :align: center
      :width: 90%
 

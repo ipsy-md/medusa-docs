@@ -16,18 +16,18 @@ Use Condor for analysis
   node is meant for interactive use and quick computations, otherwise it
   negatively affects other people's work. Anything bigger should be submitted as
   an HTCondor Job, either as an
-  `interactive job </docs/medusa/htcondor/#the-interactive-jobs>`_ or as a
-  `non-interactive job </docs/medusa/htcondor/#the "ideal" job>`_. HTCondor Job
+  `interactive job </medusa-docs/medusa/htcondor/#the-interactive-jobs>`_ or as a
+  `non-interactive job </medusa-docs/medusa/htcondor/#the "ideal" job>`_. HTCondor Job
   descriptions should be accurate, and users should make an honest intellectual
   effort to adapt their jobs to the mythical
-  `"ideal job" </docs/medusa/htcondor/#the "ideal" job>`_.
+  `"ideal job" </medusa-docs/medusa/htcondor/#the "ideal" job>`_.
 
 Be mindful of your storage space
   Treat storage space as if it's a finite resource (pro-tip: it is).
   Take the time to regularly remove obsolete data and temporary files.
   Temporary/easily-regeneratable data should be stored in a ``scratch/``
   directory. More information is available in the
-  `Data Documentation </docs/medusa/data/>`_.
+  `Data Documentation </medusa-docs/medusa/data/>`_.
 
 Report anything strange/faulty
   If you notice something broken (or even just strange) while working on the

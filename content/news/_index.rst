@@ -25,7 +25,7 @@ Events
   improvements.
 
 2020.02.04 - Dotfiles updated
-  The `Dotfiles repo </docs/services/hosted/#dotfiles>`_ has been been entirely
+  The `Dotfiles repo </medusa-docs/services/hosted/#dotfiles>`_ has been been entirely
   overhauled, porting fixes and improvements from the INM-7 dotfiles. It is
   located at ``/home/git/dotfiles.git`` on Medusa.
 
@@ -69,7 +69,7 @@ Events
 
   Thus, Matlab users on Condor no longer need to limit the number of compute
   nodes used due to licensing constraints. The `Condor/Matlab documentation
-  </docs/medusa/htcondor/#matlab>`_ has been updated to reflect this.
+  </medusa-docs/medusa/htcondor/#matlab>`_ has been updated to reflect this.
 
 2018.07.09 - Fixed swap vs /tmp disk allocation on compute nodes
   Due to a bug in the installation's preseed configuration, compute nodes with

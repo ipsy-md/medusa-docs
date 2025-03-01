@@ -28,7 +28,7 @@ Currently, very few terminals support sixel.
   ``xterm`` is the recommended terminal for using sixel. None of the following
   popular terminals have in-tree support: GNOME Terminal, Konsole, urxvt, st.
 
-  If you're using the `IPSY dotfiles </docs/services/hosted/#dotfiles>`_ then
+  If you're using the `IPSY dotfiles </medusa-docs/services/hosted/#dotfiles>`_ then
   everything should "just work". Otherwise, you will need to adjust your
   ``.Xresources`` settings.
 

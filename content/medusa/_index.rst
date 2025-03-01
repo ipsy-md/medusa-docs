@@ -10,7 +10,7 @@ Medusa is tailored to the analysis needs of psychology researchers — running `
 
 When you first use Medusa, you will use one machine: the head node.
 However, Medusa is a collection of servers, with many dedicated computational nodes.
-In order to use Medusa to its full potential, you will need to become familiar with our job scheduler, `Condor </docs/medusa/htcondor/>`_.
+In order to use Medusa to its full potential, you will need to become familiar with our job scheduler, `Condor </medusa-docs/medusa/htcondor/>`_.
 
 .. _Institute of Psychology II: http://www.ipsy.ovgu.de/en/institute_of_psychology.html
 .. _Otto-von-Guericke University of Magdeburg: http://www.ovgu.de

@@ -5,7 +5,7 @@ weight: 235
 
 This document focuses on how HTCondor is configured and intended to be used on
 our cluster. To learn about Condor and how to use it, you should read the
-`Tools > HTCondor </docs/tools/htcondor/>`_ page.
+`Tools > HTCondor </medusa-docs/tools/htcondor/>`_ page.
 
 HTCondor jobs come in two versions: interactive and non-interactive. Whenever
 possible, a non-interactive job should be used for computations.
@@ -41,9 +41,9 @@ Interactive Jobs
 ****************
 Any task which takes more than a few minutes or uses a lot of CPU/RAM should
 *not* be run from the head node, but as an interactive job. This applies
-especially to working with `datalad </docs/tools/datalad>`_, as the underlying
+especially to working with `datalad </medusa-docs/tools/datalad>`_, as the underlying
 ``git annex`` calls can be CPU-intensive. To run an interactive job, use the
-following `job submit file </docs/tools/htcondor#interactive-jobs>`_.
+following `job submit file </medusa-docs/tools/htcondor#interactive-jobs>`_.
 
 Prioritization of Jobs
 **********************
